@@ -1,0 +1,32 @@
+author			= "Kamber";
+onLoadName		= "ABRA Jet Fight";
+loadScreen		= "media\abra.paa";
+
+#include "scripts\view\GUI.h"
+
+class CfgFunctions 
+{
+#include "killfeed\cfgfunctions.hpp"
+#include "scripts\view\CfgFunctions.hpp"
+};
+
+class CfgMusic
+{
+	tracks[] = {};
+	class Music1
+	{
+		
+		name	= "Far Out";
+		sound[]	= { "media\abramusic.ogg", db + 5, 1.0 };
+	};
+	class Music2
+	{
+		name	= "Faded";
+		sound[]	= { "media\abramusic1.ogg", db + 5, 1.0 };
+	};
+	class Music3
+	{
+		name	= "Fysch";
+		sound[]	= { "media\abramusic2.ogg", db + 5, 1.0 };
+	};
+};
